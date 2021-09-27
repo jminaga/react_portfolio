@@ -12,3 +12,7 @@
 <br> When the user clicks on the differetn sections from the sidebar menu they are taken to that section of the webpage.
 <br> When the user clicks on the first two links in the portfolio section they are taken to the deployed project.
 <br> Responsive design was used for large and phone screens
+# Screen Shots
+![](img/sc1.png)
+![](img/sc2.png)
+![](img/sc3.png)
