@@ -1,0 +1,27 @@
+.app{
+    height: 100vh;
+
+    .sections{
+        width: 100%;
+        height: calc(100vh - 70px);
+        position: relative;
+        top: 70px;
+        // This plus the snap align makes scrolling stop automatically at the start of each section
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none; // This is for Firefox 
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        scroll-behavior: smooth;
+        
+        // This gets applied to components in the sections div
+        // Basically it makes different sections on the page that are the same size
+        > *{
+            width: 100vw;
+            height: calc(100vh - 70px);
+            scroll-snap-align: start;
+        
+            
+        }
+    }
+}
