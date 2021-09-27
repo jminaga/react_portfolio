@@ -10,4 +10,5 @@
 <br> The nav bar incorporates a side bar using conditional state for displaying and styling
 <br> Snap scrolling is used to separate the different sections of the page
 <br> When the user clicks on the differetn sections from the sidebar menu they are taken to that section of the webpage.
+<br> When the user clicks on the first two links in the portfolio section they are taken to the deployed project.
 <br> Responsive design was used for large and phone screens
